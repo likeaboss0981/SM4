@@ -14,7 +14,6 @@ public class TaskStorage {
     public static TaskStorage getInstance(){
         if(instance == null)
             instance = new TaskStorage();
-
         return instance;
     }
 
